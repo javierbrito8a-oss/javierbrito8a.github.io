@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Javier Israel | CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #0a0a0a;
+            --accent: #1f1f1f;
+            --light: #f5f5f5;
+            --gray: #888;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--gray);
+            margin-top: 1rem;
+            max-width: 600px;
+        }
+
+        section {
+            padding: 4rem 10%;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 800;
+        }
+
+        .about p {
+            max-width: 800px;
+            font-size: 1.1rem;
+        }
+
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+
+        .experience-item h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .experience-item span {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .portfolio-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .portfolio-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 1.5rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Javier Israel</h1>
+    <p>Constructor de soluciones estratégicas. Orientado a resultados, crecimiento exponencial y creación de valor sostenible.</p>
+    <a href="#contacto" class="btn">Conectar</a>
+</header>
+
+<section class="about">
+    <h2>Perfil</h2>
+    <p>
+        Profesional enfocado en liderazgo, estrategia comercial y desarrollo de negocios. 
+        Especialista en optimización de operaciones, crecimiento de ventas y creación de modelos rentables.
+        Mentalidad de innovación continua y ejecución disciplinada.
+    </p>
+</section>
+
+<section class="experience">
+    <h2>Experiencia</h2>
+
+    <div class="experience-item">
+        <h3>Gerente Comercial</h3>
+        <span>Empresa del Sector Alimenticio | 2020 - Actualidad</span>
+        <p>
+            Liderazgo de equipos de ventas, expansión de mercado B2B y desarrollo de estrategias de crecimiento sostenido.
+        </p>
+    </div>
+
+    <div class="experience-item">
+        <h3>Desarrollo de Nuevos Negocios</h3>
+        <span>Proyectos Independientes | 2018 - 2020</span>
+        <p>
+            Evaluación de oportunidades de inversión agrícola, inmobiliaria y comercial.
+        </p>
+    </div>
+
+</section>
+
+<section class="portfolio">
+    <h2>Portafolio de Soluciones</h2>
+
+    <div class="portfolio-grid">
+        <div class="portfolio-card">
+            <h3>Estrategia de Crecimiento Comercial</h3>
+            <p>Implementación de modelo de expansión B2B con aumento sostenido en facturación mensual.</p>
+        </div>
+
+        <div class="portfolio-card">
+            <h3>Optimización Operativa</h3>
+            <p>Rediseño de procesos internos reduciendo tiempos muertos y mejorando eficiencia del equipo.</p>
+        </div>
+
+        <div class="portfolio-card">
+            <h3>Desarrollo de Modelo Agrícola Rentable</h3>
+            <p>Evaluación de reconversión productiva para maximizar flujo mensual constante.</p>
+        </div>
+
+        <div class="portfolio-card">
+            <h3>Campañas de Marketing Digital</h3>
+            <p>Creación de propuestas de valor diferenciadas para proyectos inmobiliarios residenciales.</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: tuemail@email.com</p>
+    <p>LinkedIn: linkedin.com/in/tuusuario</p>
+</section>
+
+<footer>
+    <p>© 2026 Javier Israel | Construyendo el futuro con disciplina e innovación.</p>
+</footer>
+
+</body>
+</html>
